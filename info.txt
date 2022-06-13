@@ -1,0 +1,7 @@
+Создание auth со стороны Google
+1. Переходим по ссылке https://console.cloud.google.com/projectselector/apis/credentials?pli=1&supportedpurview=project
+2. Create project
+3. Вводим имя -> create
+4. Getting started -> explore and enable APIs
+5. Credentials -> create credentials -> OAuth client ID -> configure consent screen
+6. Name + email -> web-api -> authorized JS origins - http://localhost:9000 -> authorized redirect URIs - http://localhost:9000/login
